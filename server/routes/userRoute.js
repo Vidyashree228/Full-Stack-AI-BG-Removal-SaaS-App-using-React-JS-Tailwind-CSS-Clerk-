@@ -6,7 +6,7 @@ import {
   verifyRazorPay,
 } from "../controllers/UserController.js";
 import authUser from "../middlewares/auth.js";
-import User from "../models/UserModel.js";
+import User from "../models/userModel.js";
 
 const router = express.Router();
 
