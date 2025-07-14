@@ -7,7 +7,7 @@ import express from "express";
 import cors from "cors";
 import connectDB from "./configs/mongodb.js";
 import userRoute from "./routes/userRoute.js";
-import imageRouter from "./routes/imageRoutes.js";
+import imageRouter from "./routes/ImageRoutes.js";
 
 // Debug check for Razorpay credentials
 console.log("RAZORPAY_KEY_ID:", process.env.RAZORPAY_KEY_ID);
